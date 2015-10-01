@@ -18,5 +18,10 @@
   "homepage": "https://github.com/rafalszemraj/react-utils#readme",
   "dependencies": {
     "react": "^0.13.3"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   }
 }
